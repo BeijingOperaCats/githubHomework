@@ -1,27 +1,42 @@
 <DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Image Slider</title>
-        <link href="style.css" type="text/css" rel="stylesheet"/>
-    </head>
-    <body>
-        <div class="slide-container">
-            <span id="slider-image-1"></span>
-            <span id="slider-image-2"></span>
-            <span id="slider-image-3"></span>
-            <div class="image-container">
-                <img src="1(1).jpg" class="slide-image">
-                <img src="2(1).jpg" class="slide-image">
-                <img src="3(1).jpg" class="slide-image">
-            </div>
-            <div class="button-container">
-                <a href="#slider-image-1" class="slider-button"></a>
-                <a href="#slider-image-2" class="slider-button"></a>
-                <a href="#slider-image-3" class="slider-button"></a>
-                
-            </div>
-    </body>
-    </html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar using only html css</title>
+    <link rel="stylesheet" type="text/css" href="2-style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+    <header>
+      <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>logo</span></a>
+
+      <ul class="navbar">
+        <li><a href="#" class="active">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+
+      <div class="main">
+        <a href="#" class="user"><i class="ri-user-fill"></i>sign in</a>
+        <a href="#">register</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <!-- js link -->
+    <script type="text/javascript" src="/2-script.js"></script>
+
+</body>
+</html>
