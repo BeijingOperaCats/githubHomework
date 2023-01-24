@@ -130,7 +130,7 @@ body{
             transition: all .50s ease;
         }
         .navbar a:hover{
-            color: var(--text-color);
+            color: var(--main-color);
             transform: translateY(5px);
             /* transform配上reanslateY，貌似会让鼠标选中字母后会下降一段距离 */
             }
